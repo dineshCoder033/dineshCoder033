@@ -131,7 +131,7 @@ src="https://leetcard.jacoblin.cool/HariCoder2111?theme=dark&font=Nanum%20Gothic
 
 ### 📊 GitHub Stats
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=hariharan-km&theme=blue-green" alt="DINESH's GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api?username=DINESH&theme=blue-green" alt="DINESH's GitHub stats" />
 <img width="28%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hariharan-km&theme=blue-green"  alt="Top Languages" />
 </p>
 
