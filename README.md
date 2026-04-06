@@ -59,10 +59,10 @@ lor=white" alt="YouTube" />
 <img width="50" height="50" src="https://img.icons8.com/fluency/48/tailwind_css.png" alt="tailwind_css"/>
 <img width="50" height="50" src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="Bootstrap" title="Bootstrap" />
 <img width="50" height="50" src="https://img.icons8.com/color/48/react-native.png" alt="react-native"/>
-<!-- <img width="50" height="50" src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js" title="Node.js" />
+<img width="50" height="50" src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js" title="Node.js" />
 <img width="50" height="50" src="https://img.icons8.com/ios/50/express-js.png" alt="Express.js" title="Express.js" />
 <img width="50" height="50" src="https://img.icons8.com/color/48/mongodb.png" alt="mongodb"/> -->
-<!-- <img width="50" height="50" src="https://img.icons8.com/color/48/nextjs.png" alt="Next.js" title="Next.js" />-->
+<img width="50" height="50" src="https://img.icons8.com/color/48/nextjs.png" alt="Next.js" title="Next.js" /> 
 <img width="50" height="50" src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub" title="GitHub" /> 
 <img width="50" height="50" src="https://img.icons8.com/color/48/flutter.png" alt="flutter"/>
 <img width="50" height="50" src="https://img.icons8.com/fluency/48/mysql-logo.png" alt="mysql-logo"/>
@@ -70,18 +70,35 @@ lor=white" alt="YouTube" />
 <!-- <img width="50" height="50" src="https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1"/>
 <img width="50" height="50" src="https://img.icons8.com/fluency/48/c-programming.png" alt="c-programming"/>
 <img width="50" height="50" src="https://img.icons8.com/color/48/c-plus-plus-logo.png" alt="c-plus-plus-logo"/> -->
-<img width="50" height="50" src="https://img.icons8.com/fluency/48/python.png" alt="python"/>
+<!-- <img width="50" height="50" src="https://img.icons8.com/fluency/48/python.png" alt="python"/> -->
 </p>
 
 ---
 
 ### 🛠 Tools I Use
 <p align="left">
-<img width="48" height="48" src="https://img.icons8.com/fluency/48/visual-studio-code-2019.png" alt="visual-studio-code-2019"/>
-<img width="48" height="48" src="https://img.icons8.com/color/48/android-studio--v2.png" alt="android-studio--v2"/>
-<img width="48" height="48" src="https://img.icons8.com/color/48/git.png" alt="git"/>
-<img width="48" height="48" src="https://img.icons8.com/color/48/figma--v1.png" alt="figma--v1"/>
-<!-- <img width="48" height="48" src="https://img.icons8.com/color/48/pycharm--v1.png" alt="pycharm--v1"/> -->
+
+
+<img width="48" height="48" src="https://img.icons8.com/fluency/48/visual-studio-code-2019.png" alt="VS Code"/>
+
+<img width="48" height="48" src="https://img.icons8.com/color/48/android-studio--v2.png" alt="Android Studio"/>
+
+<img width="48" height="48" src="https://img.icons8.com/color/48/git.png" alt="Git"/>
+
+<img width="48" height="48" src="https://img.icons8.com/color/48/figma--v1.png" alt="Figma"/>
+
+<img width="48" height="48" src="https://img.icons8.com/color/48/postman-api.png" alt="Postman"/>
+
+<img width="48" height="48" src="https://img.icons8.com/color/48/framer.png" alt="Framer"/>
+
+<img width="48" height="48" src="https://img.icons8.com/color/48/artificial-intelligence.png" alt="Cursor AI"/>
+
+<img width="48" height="48" src="https://img.icons8.com/fluency/48/automation.png" alt="n8n"/>
+
+<img src="https://skillicons.dev/icons?i=vscode,androidstudio,git,figma,postman"/>
+
+</p>
+<img width="48" height="48" src="https://img.icons8.com/color/48/pycharm--v1.png" alt="pycharm--v1"/>
 
 - *Workspace Setup:*<br>
    1. Laptop: *Dell Lattitude 5490* <br>
