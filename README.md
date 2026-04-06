@@ -129,10 +129,13 @@ src="https://leetcard.jacoblin.cool/HariCoder2111?theme=dark&font=Nanum%20Gothic
 
 ---
 
-### 📊 GitHub Stats
+# 📊 GitHub Stats
+
 <p align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=dineshkumar0202&show_icons=true&theme=tokyonight&count_private=true"/>
+<img src="https://github-readme-stats.vercel.app/api?username=dineshkumar0202&show_icons=true&theme=tokyonight"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=dineshkumar0202&theme=tokyonight"/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dineshkumar0202&layout=compact&theme=tokyonight"/>
 
