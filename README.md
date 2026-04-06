@@ -61,7 +61,7 @@ lor=white" alt="YouTube" />
 <img width="50" height="50" src="https://img.icons8.com/color/48/react-native.png" alt="react-native"/>
 <img width="50" height="50" src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js" title="Node.js" />
 <img width="50" height="50" src="https://img.icons8.com/ios/50/express-js.png" alt="Express.js" title="Express.js" />
-<img width="50" height="50" src="https://img.icons8.com/color/48/mongodb.png" alt="mongodb"/> -->
+<img width="50" height="50" src="https://img.icons8.com/color/48/mongodb.png" alt="mongodb"/> 
 <img width="50" height="50" src="https://img.icons8.com/color/48/nextjs.png" alt="Next.js" title="Next.js" /> 
 <img width="50" height="50" src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub" title="GitHub" /> 
 <img width="50" height="50" src="https://img.icons8.com/color/48/flutter.png" alt="flutter"/>
@@ -95,7 +95,10 @@ lor=white" alt="YouTube" />
 
 <img width="48" height="48" src="https://img.icons8.com/fluency/48/automation.png" alt="n8n"/>
 
-<img src="https://skillicons.dev/icons?i=vscode,androidstudio,git,figma,postman"/>
+
+<img width="48" src="https://img.icons8.com/color/48/framer.png"/>
+<img width="48" src="https://img.icons8.com/color/48/artificial-intelligence.png"/>
+<img width="48" src="https://img.icons8.com/fluency/48/automation.png"/>
 
 </p>
 <img width="48" height="48" src="https://img.icons8.com/color/48/pycharm--v1.png" alt="pycharm--v1"/>
