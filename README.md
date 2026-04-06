@@ -131,14 +131,22 @@ src="https://leetcard.jacoblin.cool/HariCoder2111?theme=dark&font=Nanum%20Gothic
 
 ### 📊 GitHub Stats
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=DINESH&theme=blue-green" alt="DINESH's GitHub stats" />
-<img width="28%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dineshkumar0202&theme=blue-green"  alt="Top Languages" />
+
+<img src="https://github-readme-stats.vercel.app/api?username=dineshkumar0202&show_icons=true&theme=tokyonight&count_private=true"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dineshkumar0202&layout=compact&theme=tokyonight"/>
+
 </p>
 
 ---
 
-### 🌟 Activity Graph
-[![Harii's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=dineshkumar0202-km&bg_color=000000&color=ffffff&line=6ef764&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+# 📈 GitHub Activity Graph
+
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=dineshkumar0202&bg_color=0d1117&color=00bcd4&line=00bcd4&point=ffffff&area=true&hide_border=true"/>
+
+</p>
 
 ---
 
