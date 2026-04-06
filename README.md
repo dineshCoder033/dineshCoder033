@@ -67,10 +67,7 @@ lor=white" alt="YouTube" />
 <img width="50" height="50" src="https://img.icons8.com/color/48/flutter.png" alt="flutter"/>
 <img width="50" height="50" src="https://img.icons8.com/fluency/48/mysql-logo.png" alt="mysql-logo"/>
 <img width="50" height="50" src="https://img.icons8.com/color/48/google-firebase-console.png" alt="google-firebase-console"/>
-<!-- <img width="50" height="50" src="https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1"/>
-<img width="50" height="50" src="https://img.icons8.com/fluency/48/c-programming.png" alt="c-programming"/>
-<img width="50" height="50" src="https://img.icons8.com/color/48/c-plus-plus-logo.png" alt="c-plus-plus-logo"/> -->
-<!-- <img width="50" height="50" src="https://img.icons8.com/fluency/48/python.png" alt="python"/> -->
+
 </p>
 
 ---
@@ -87,18 +84,10 @@ lor=white" alt="YouTube" />
 
 <img width="48" height="48" src="https://img.icons8.com/color/48/figma--v1.png" alt="Figma"/>
 
-<img width="48" height="48" src="https://img.icons8.com/color/48/postman-api.png" alt="Postman"/>
-
-<img width="48" height="48" src="https://img.icons8.com/color/48/framer.png" alt="Framer"/>
-
-<img width="48" height="48" src="https://img.icons8.com/color/48/artificial-intelligence.png" alt="Cursor AI"/>
-
-<img width="48" height="48" src="https://img.icons8.com/fluency/48/automation.png" alt="n8n"/>
-
-<img src="https://skillicons.dev/icons?i=postman"/>
+<img src="https://skillicons.dev/icons?i=postman"/> 
 
 </p>
-<img width="48" height="48" src="https://img.icons8.com/color/48/pycharm--v1.png" alt="pycharm--v1"/>
+<!-- <img width="48" height="48" src="https://img.icons8.com/color/48/pycharm--v1.png" alt="pycharm--v1"/> -->
 
 - *Workspace Setup:*<br>
    1. Laptop: *Dell Lattitude 5490* <br>
