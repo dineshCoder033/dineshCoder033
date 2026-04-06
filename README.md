@@ -95,10 +95,7 @@ lor=white" alt="YouTube" />
 
 <img width="48" height="48" src="https://img.icons8.com/fluency/48/automation.png" alt="n8n"/>
 
-
-<img width="48" src="https://img.icons8.com/color/48/framer.png"/>
-<img width="48" src="https://img.icons8.com/color/48/artificial-intelligence.png"/>
-<img width="48" src="https://img.icons8.com/fluency/48/automation.png"/>
+<img src="https://skillicons.dev/icons?i=postman"/>
 
 </p>
 <img width="48" height="48" src="https://img.icons8.com/color/48/pycharm--v1.png" alt="pycharm--v1"/>
