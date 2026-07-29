@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="logo-grad-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#4facfe" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="20" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <text x="50" y="65" font-family="'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="44" fill="url(#logo-grad-dark)" text-anchor="middle">DK</text>
+</svg>
