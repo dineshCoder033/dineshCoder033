@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 80" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bottom-bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="50%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+    <filter id="bottom-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="1000" height="75" rx="12" fill="url(#bottom-bg)" stroke="#00bcd4" stroke-width="1.2" stroke-opacity="0.5" filter="url(#bottom-glow)" />
+
+  <!-- Quote Text -->
+  <text x="30" y="44" font-family="'Fira Code', monospace" font-size="13" font-weight="600" fill="#f3f4f6">
+    💡 "Striving to make the web a better place, one project at a time!"
+  </text>
+
+  <!-- Metrics Badges (Right Side) -->
+  <g transform="translate(620, 22)">
+    <!-- Metric 1: Views -->
+    <rect x="0" y="0" width="110" height="30" rx="6" fill="#0d1117" stroke="#00bcd4" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="55" y="19" font-family="'Fira Code', monospace" font-size="11" font-weight="700" fill="#00bcd4" text-anchor="middle">👁 VIEWS: 1.2K+</text>
+
+    <!-- Metric 2: Followers -->
+    <rect x="120" y="0" width="120" height="30" rx="6" fill="#0d1117" stroke="#a855f7" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="180" y="19" font-family="'Fira Code', monospace" font-size="11" font-weight="700" fill="#a855f7" text-anchor="middle">👥 FOLLOWERS</text>
+
+    <!-- Metric 3: Stars -->
+    <rect x="250" y="0" width="100" height="30" rx="6" fill="#0d1117" stroke="#eab308" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="300" y="19" font-family="'Fira Code', monospace" font-size="11" font-weight="700" fill="#eab308" text-anchor="middle">⭐ STARS</text>
+  </g>
+</svg>
