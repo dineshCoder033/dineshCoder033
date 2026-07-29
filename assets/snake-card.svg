@@ -5,23 +5,8 @@
       <stop offset="100%" stop-color="#070a11" />
     </linearGradient>
 
-    <!-- Animated Snake Movement -->
-    <style>
-      @keyframes snakePulse {
-        0%, 100% { opacity: 0.3; }
-        50% { opacity: 1; fill: #00e676; }
-      }
-      .snake-dot { animation: snakePulse 2s infinite ease-in-out; }
-      .s1 { animation-delay: 0.1s; }
-      .s2 { animation-delay: 0.2s; }
-      .s3 { animation-delay: 0.3s; }
-      .s4 { animation-delay: 0.4s; }
-      .s5 { animation-delay: 0.5s; }
-      .s6 { animation-delay: 0.6s; }
-      .s7 { animation-delay: 0.7s; }
-      .s8 { animation-delay: 0.8s; }
-      .s9 { animation-delay: 0.9s; }
-      .s10 { animation-delay: 1.0s; }
+    <!-- Animated Snake Movement -->    <style>
+      .snake-dot { fill-opacity: 0.2; }
     </style>
   </defs>
 
@@ -46,42 +31,42 @@
 
       <!-- Animated Snake Path -->
       <g fill="#22c55e">
-        <circle class="snake-dot s1" cx="25" cy="40" r="4.5"/>
-        <circle class="snake-dot s2" cx="40" cy="40" r="4.5"/>
-        <circle class="snake-dot s3" cx="55" cy="40" r="4.5"/>
-        <circle class="snake-dot s4" cx="70" cy="25" r="4.5"/>
-        <circle class="snake-dot s5" cx="85" cy="25" r="4.5"/>
-        <circle class="snake-dot s6" cx="100" cy="25" r="4.5"/>
-        <circle class="snake-dot s7" cx="115" cy="10" r="4.5"/>
-        <circle class="snake-dot s8" cx="130" cy="10" r="4.5"/>
-        <circle class="snake-dot s9" cx="145" cy="10" r="4.5"/>
-        <circle class="snake-dot s10" cx="160" cy="25" r="4.5"/>
-        <circle class="snake-dot s1" cx="175" cy="25" r="4.5"/>
-        <circle class="snake-dot s2" cx="190" cy="40" r="4.5"/>
-        <circle class="snake-dot s3" cx="205" cy="40" r="4.5"/>
-        <circle class="snake-dot s4" cx="220" cy="40" r="4.5"/>
-        <circle class="snake-dot s5" cx="235" cy="25" r="4.5"/>
-        <circle class="snake-dot s6" cx="250" cy="25" r="4.5"/>
-        <circle class="snake-dot s7" cx="265" cy="10" r="4.5"/>
-        <circle class="snake-dot s8" cx="280" cy="10" r="4.5"/>
-        <circle class="snake-dot s9" cx="295" cy="25" r="4.5"/>
-        <circle class="snake-dot s10" cx="310" cy="25" r="4.5"/>
-        <circle class="snake-dot s1" cx="325" cy="40" r="4.5"/>
-        <circle class="snake-dot s2" cx="340" cy="40" r="4.5"/>
-        <circle class="snake-dot s3" cx="355" cy="25" r="4.5"/>
-        <circle class="snake-dot s4" cx="370" cy="25" r="4.5"/>
-        <circle class="snake-dot s5" cx="385" cy="10" r="4.5"/>
-        <circle class="snake-dot s6" cx="400" cy="10" r="4.5"/>
-        <circle class="snake-dot s7" cx="415" cy="25" r="4.5"/>
-        <circle class="snake-dot s8" cx="430" cy="25" r="4.5"/>
-        <circle class="snake-dot s9" cx="445" cy="40" r="4.5"/>
-        <circle class="snake-dot s10" cx="460" cy="40" r="4.5"/>
-        <circle class="snake-dot s1" cx="475" cy="25" r="4.5"/>
-        <circle class="snake-dot s2" cx="490" cy="25" r="4.5"/>
-        <circle class="snake-dot s3" cx="505" cy="10" r="4.5"/>
-        <circle class="snake-dot s4" cx="520" cy="10" r="4.5"/>
+        <circle class="snake-dot s1" cx="25" cy="40" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.1s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s2" cx="40" cy="40" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.2s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s3" cx="55" cy="40" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.3s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s4" cx="70" cy="25" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.4s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s5" cx="85" cy="25" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.5s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s6" cx="100" cy="25" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.6s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s7" cx="115" cy="10" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.7s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s8" cx="130" cy="10" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.8s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s9" cx="145" cy="10" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.9s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s10" cx="160" cy="25" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="1.0s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s1" cx="175" cy="25" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.1s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s2" cx="190" cy="40" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.2s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s3" cx="205" cy="40" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.3s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s4" cx="220" cy="40" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.4s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s5" cx="235" cy="25" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.5s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s6" cx="250" cy="25" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.6s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s7" cx="265" cy="10" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.7s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s8" cx="280" cy="10" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.8s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s9" cx="295" cy="25" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.9s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s10" cx="310" cy="25" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="1.0s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s1" cx="325" cy="40" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.1s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s2" cx="340" cy="40" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.2s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s3" cx="355" cy="25" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.3s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s4" cx="370" cy="25" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.4s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s5" cx="385" cy="10" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.5s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s6" cx="400" cy="10" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.6s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s7" cx="415" cy="25" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.7s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s8" cx="430" cy="25" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.8s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s9" cx="445" cy="40" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.9s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s10" cx="460" cy="40" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="1.0s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s1" cx="475" cy="25" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.1s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s2" cx="490" cy="25" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.2s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s3" cx="505" cy="10" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.3s" repeatCount="indefinite" /></circle>
+        <circle class="snake-dot s4" cx="520" cy="10" r="4.5"><animate attributeName="fill-opacity" values="0.2;1;0.2" dur="1.8s" begin="0.4s" repeatCount="indefinite" /></circle>
         <!-- Snake Head -->
-        <circle cx="535" cy="10" r="6" fill="#00e676"/>
+        <circle cx="535" cy="10" r="6" fill="#00e676"><animate attributeName="fill-opacity" values="0.5;1;0.5" dur="1.8s" begin="0.1s" repeatCount="indefinite" /></circle>
         <!-- Snake Tongue -->
         <path d="M 541 10 L 547 8 M 541 10 L 547 12" stroke="#ff4081" stroke-width="1.5"/>
       </g>
