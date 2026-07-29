@@ -1,86 +1,79 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 135" width="100%" height="100%">
   <defs>
-    <linearGradient id="snake-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117" />
-      <stop offset="50%" stop-color="#161b22" />
-      <stop offset="100%" stop-color="#0f172a" />
+    <linearGradient id="snake-card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d111a" />
+      <stop offset="100%" stop-color="#070a11" />
     </linearGradient>
-    <filter id="hex-glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
   </defs>
 
-  <!-- Left/Main Container: Contribution Snake Card (Width 710) -->
-  <g transform="translate(0, 5)">
-    <rect width="710" height="230" rx="12" fill="url(#snake-bg)" stroke="#00bcd4" stroke-width="1.2" stroke-opacity="0.5" />
-    
-    <!-- Card Header -->
-    <rect width="710" height="36" rx="12" fill="#21262d" />
-    <rect y="20" width="710" height="16" fill="#21262d" />
-    <text x="15" y="24" font-family="'Fira Code', monospace" font-size="13" font-weight="800" fill="#22c55e">
+  <!-- Left/Main Container: Contribution Snake (Width 660) -->
+  <g transform="translate(0, 0)">
+    <rect width="660" height="130" rx="8" fill="url(#snake-card-bg)" stroke="#00e5ff" stroke-width="1" stroke-opacity="0.3" />
+    <text x="12" y="22" font-family="'Fira Code', monospace" font-size="12" font-weight="800" fill="#22c55e">
       🐍 CONTRIBUTION SNAKE
     </text>
-    <text x="690" y="24" font-family="'Fira Code', monospace" font-size="11" font-weight="600" fill="#8b949e" text-anchor="end">
-      "Let's eat some contributions!"
-    </text>
 
-    <!-- Embedded Snake Grid Vector / Placeholder Graphic -->
-    <g transform="translate(15, 50)">
-      <image href="images/github-contribution-grid-snake-dark.svg" width="680" height="165" preserveAspectRatio="xMidYMid meet" />
+    <!-- Contribution Matrix Grid + Green Snake Path -->
+    <g transform="translate(12, 36)">
+      <!-- Embedded Snake Image / Dynamic Vector Snake Grid -->
+      <image href="images/github-contribution-grid-snake-dark.svg" width="636" height="60" preserveAspectRatio="xMidYMid slice"/>
     </g>
+
+    <!-- Snake Footer Text -->
+    <text x="12" y="115" font-family="'Fira Code', monospace" font-size="10" fill="#22c55e">
+      Let's eat some contributions! 🐍
+    </text>
   </g>
 
-  <!-- Right Container: Achievements Card (Width 270) -->
-  <g transform="translate(730, 5)">
-    <rect width="270" height="230" rx="12" fill="url(#snake-bg)" stroke="#00bcd4" stroke-width="1.2" stroke-opacity="0.5" />
-
-    <!-- Card Header -->
-    <rect width="270" height="36" rx="12" fill="#21262d" />
-    <rect y="20" width="270" height="16" fill="#21262d" />
-    <text x="15" y="24" font-family="'Fira Code', monospace" font-size="13" font-weight="800" fill="#eab308">
+  <!-- Right Container: Achievements (Width 325) -->
+  <g transform="translate(675, 0)">
+    <rect width="325" height="130" rx="8" fill="url(#snake-card-bg)" stroke="#00e5ff" stroke-width="1" stroke-opacity="0.3" />
+    <text x="12" y="22" font-family="'Fira Code', monospace" font-size="12" font-weight="800" fill="#00e5ff">
       🏆 ACHIEVEMENTS
     </text>
-    <a href="https://github.com/dineshkumar0202?tab=achievements" target="_blank">
-      <text x="255" y="24" font-family="'Fira Code', monospace" font-size="11" font-weight="700" fill="#38bdf8" text-anchor="end">View all →</text>
-    </a>
 
-    <!-- Hexagonal Badges Grid -->
-    <g transform="translate(25, 60)">
-      <!-- Badge 1: Pull Shark -->
+    <!-- Hexagonal Badges Grid (6 Hexagons) -->
+    <g transform="translate(16, 40)">
+      <!-- Hex 1: Pull Shark -->
       <g transform="translate(0, 0)">
-        <polygon points="30,0 60,17 60,52 30,69 0,52 0,17" fill="#161b22" stroke="#38bdf8" stroke-width="1.5" filter="url(#hex-glow)" />
-        <text x="30" y="32" font-family="'Fira Code', monospace" font-size="20" text-anchor="middle">🦈</text>
-        <text x="30" y="48" font-family="'Fira Code', monospace" font-size="8" font-weight="700" fill="#38bdf8" text-anchor="middle">PULL SHARK</text>
+        <polygon points="18,0 36,10 36,32 18,42 0,32 0,10" fill="#090d16" stroke="#a855f7" stroke-width="1.5" />
+        <text x="18" y="26" font-family="'Fira Code', monospace" font-size="15" text-anchor="middle">🦈</text>
       </g>
 
-      <!-- Badge 2: Quickdraw -->
-      <g transform="translate(75, 0)">
-        <polygon points="30,0 60,17 60,52 30,69 0,52 0,17" fill="#161b22" stroke="#22c55e" stroke-width="1.5" filter="url(#hex-glow)" />
-        <text x="30" y="32" font-family="'Fira Code', monospace" font-size="20" text-anchor="middle">⚡</text>
-        <text x="30" y="48" font-family="'Fira Code', monospace" font-size="8" font-weight="700" fill="#22c55e" text-anchor="middle">QUICKDRAW</text>
+      <!-- Hex 2: Quickdraw -->
+      <g transform="translate(48, 0)">
+        <polygon points="18,0 36,10 36,32 18,42 0,32 0,10" fill="#090d16" stroke="#38bdf8" stroke-width="1.5" />
+        <text x="18" y="26" font-family="'Fira Code', monospace" font-size="15" text-anchor="middle">⚡</text>
       </g>
 
-      <!-- Badge 3: YOLO -->
-      <g transform="translate(150, 0)">
-        <polygon points="30,0 60,17 60,52 30,69 0,52 0,17" fill="#161b22" stroke="#eab308" stroke-width="1.5" filter="url(#hex-glow)" />
-        <text x="30" y="32" font-family="'Fira Code', monospace" font-size="20" text-anchor="middle">🎲</text>
-        <text x="30" y="48" font-family="'Fira Code', monospace" font-size="8" font-weight="700" fill="#eab308" text-anchor="middle">YOLO</text>
+      <!-- Hex 3: YOLO -->
+      <g transform="translate(96, 0)">
+        <polygon points="18,0 36,10 36,32 18,42 0,32 0,10" fill="#090d16" stroke="#ffd600" stroke-width="1.5" />
+        <text x="18" y="26" font-family="'Fira Code', monospace" font-size="15" text-anchor="middle">🎲</text>
       </g>
 
-      <!-- Badge 4: Pair Extraordinaire -->
-      <g transform="translate(37, 80)">
-        <polygon points="30,0 60,17 60,52 30,69 0,52 0,17" fill="#161b22" stroke="#a855f7" stroke-width="1.5" filter="url(#hex-glow)" />
-        <text x="30" y="32" font-family="'Fira Code', monospace" font-size="20" text-anchor="middle">👯</text>
-        <text x="30" y="48" font-family="'Fira Code', monospace" font-size="8" font-weight="700" fill="#a855f7" text-anchor="middle">PAIR PRO</text>
+      <!-- Hex 4: Pair Extraordinaire -->
+      <g transform="translate(144, 0)">
+        <polygon points="18,0 36,10 36,32 18,42 0,32 0,10" fill="#090d16" stroke="#00e5ff" stroke-width="1.5" />
+        <text x="18" y="26" font-family="'Fira Code', monospace" font-size="15" text-anchor="middle">👯</text>
       </g>
 
-      <!-- Badge 5: Star Gazer -->
-      <g transform="translate(112, 80)">
-        <polygon points="30,0 60,17 60,52 30,69 0,52 0,17" fill="#161b22" stroke="#00bcd4" stroke-width="1.5" filter="url(#hex-glow)" />
-        <text x="30" y="32" font-family="'Fira Code', monospace" font-size="20" text-anchor="middle">⭐</text>
-        <text x="30" y="48" font-family="'Fira Code', monospace" font-size="8" font-weight="700" fill="#00bcd4" text-anchor="middle">STARGAZER</text>
+      <!-- Hex 5: Star Gazer -->
+      <g transform="translate(192, 0)">
+        <polygon points="18,0 36,10 36,32 18,42 0,32 0,10" fill="#090d16" stroke="#22c55e" stroke-width="1.5" />
+        <text x="18" y="26" font-family="'Fira Code', monospace" font-size="15" text-anchor="middle">⭐</text>
+      </g>
+
+      <!-- Hex 6: Heart / Arctic -->
+      <g transform="translate(240, 0)">
+        <polygon points="18,0 36,10 36,32 18,42 0,32 0,10" fill="#090d16" stroke="#ff4081" stroke-width="1.5" />
+        <text x="18" y="26" font-family="'Fira Code', monospace" font-size="15" text-anchor="middle">💖</text>
       </g>
     </g>
+
+    <!-- View All Link -->
+    <a href="https://github.com/dineshkumar0202?tab=achievements" target="_blank">
+      <text x="310" y="115" font-family="'Fira Code', monospace" font-size="10" font-weight="700" fill="#00e5ff" text-anchor="end">View all →</text>
+    </a>
   </g>
 </svg>

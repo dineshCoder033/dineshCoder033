@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="row3-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d111a" />
+      <stop offset="100%" stop-color="#070a11" />
+    </linearGradient>
+    <linearGradient id="graph-fill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.0" />
+    </linearGradient>
+  </defs>
+
+  <!-- ==================== CARD 1: GITHUB STATS ==================== -->
+  <g transform="translate(0, 0)">
+    <rect width="320" height="155" rx="8" fill="url(#row3-bg)" stroke="#00e5ff" stroke-width="1" stroke-opacity="0.3" />
+    <text x="12" y="24" font-family="'Fira Code', monospace" font-size="12" font-weight="800" fill="#00e5ff">
+      📊 GITHUB STATS
+    </text>
+    <line x1="12" y1="32" x2="308" y2="32" stroke="#1f293d" stroke-width="1"/>
+
+    <g transform="translate(12, 44)">
+      <!-- Contributions Box -->
+      <g transform="translate(0, 0)">
+        <rect width="92" height="92" rx="6" fill="#090d16" stroke="#1f293d" stroke-width="1" />
+        <text x="8" y="18" font-family="'Fira Code', monospace" font-size="8.5" fill="#8b949e">Total Contributions</text>
+        <text x="8" y="44" font-family="'Fira Code', monospace" font-size="18" font-weight="900" fill="#f3f4f6">2.1K+</text>
+        <path d="M 8 75 Q 30 60, 50 78 T 84 65" fill="none" stroke="#b877ff" stroke-width="2"/>
+      </g>
+
+      <!-- Repositories Box -->
+      <g transform="translate(102, 0)">
+        <rect width="92" height="92" rx="6" fill="#090d16" stroke="#1f293d" stroke-width="1" />
+        <text x="8" y="18" font-family="'Fira Code', monospace" font-size="8.5" fill="#8b949e">Total Repositories</text>
+        <text x="8" y="44" font-family="'Fira Code', monospace" font-size="18" font-weight="900" fill="#f3f4f6">39+</text>
+        <path d="M 8 78 Q 30 65, 50 72 T 84 58" fill="none" stroke="#22c55e" stroke-width="2"/>
+      </g>
+
+      <!-- Followers Box -->
+      <g transform="translate(204, 0)">
+        <rect width="92" height="92" rx="6" fill="#090d16" stroke="#1f293d" stroke-width="1" />
+        <text x="8" y="18" font-family="'Fira Code', monospace" font-size="8.5" fill="#8b949e">Followers</text>
+        <text x="8" y="44" font-family="'Fira Code', monospace" font-size="18" font-weight="900" fill="#f3f4f6">120+</text>
+        <path d="M 8 72 Q 30 80, 50 62 T 84 70" fill="none" stroke="#38bdf8" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== CARD 2: STREAK STATS ==================== -->
+  <g transform="translate(335, 0)">
+    <rect width="200" height="155" rx="8" fill="url(#row3-bg)" stroke="#00e5ff" stroke-width="1" stroke-opacity="0.3" />
+    <text x="12" y="24" font-family="'Fira Code', monospace" font-size="12" font-weight="800" fill="#00e5ff">
+      🔥 STREAK STATS
+    </text>
+    <line x1="12" y1="32" x2="188" y2="32" stroke="#1f293d" stroke-width="1"/>
+
+    <g transform="translate(12, 44)">
+      <!-- Circle Progress Ring -->
+      <g transform="translate(36, 42)">
+        <circle cx="0" cy="0" r="32" fill="none" stroke="#1f293d" stroke-width="5" />
+        <circle cx="0" cy="0" r="32" fill="none" stroke="#22c55e" stroke-width="5" stroke-dasharray="160 50" stroke-dashoffset="20" />
+        <text x="0" y="4" font-family="'Fira Code', monospace" font-size="20" font-weight="900" fill="#f3f4f6" text-anchor="middle">54</text>
+        <text x="0" y="46" font-family="'Fira Code', monospace" font-size="8" fill="#8b949e" text-anchor="middle">Current Streak</text>
+      </g>
+
+      <!-- Right Side Streak Metrics -->
+      <g transform="translate(95, 12)" font-family="'Fira Code', monospace">
+        <text x="0" y="12" font-size="8" fill="#8b949e">Best Streak</text>
+        <text x="0" y="28" font-size="16" font-weight="800" fill="#f3f4f6">73</text>
+
+        <text x="0" y="52" font-size="8" fill="#8b949e">Total Days</text>
+        <text x="0" y="68" font-size="16" font-weight="800" fill="#f3f4f6">312</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== CARD 3: TOP LANGUAGES ==================== -->
+  <g transform="translate(550, 0)">
+    <rect width="210" height="155" rx="8" fill="url(#row3-bg)" stroke="#00e5ff" stroke-width="1" stroke-opacity="0.3" />
+    <text x="12" y="24" font-family="'Fira Code', monospace" font-size="12" font-weight="800" fill="#00e5ff">
+      💻 TOP LANGUAGES
+    </text>
+    <line x1="12" y1="32" x2="198" y2="32" stroke="#1f293d" stroke-width="1"/>
+
+    <g transform="translate(12, 42)" font-family="'Fira Code', monospace" font-size="9">
+      <!-- TypeScript -->
+      <g transform="translate(0, 0)">
+        <circle cx="4" cy="6" r="3" fill="#3178c6" />
+        <text x="12" y="9" fill="#f3f4f6">TypeScript</text>
+        <text x="180" y="9" fill="#8b949e" text-anchor="end">42.1%</text>
+        <rect x="12" y="13" width="168" height="4" rx="2" fill="#1f293d" />
+        <rect x="12" y="13" width="70" height="4" rx="2" fill="#3178c6" />
+      </g>
+
+      <!-- JavaScript -->
+      <g transform="translate(0, 22)">
+        <circle cx="4" cy="6" r="3" fill="#f7df1e" />
+        <text x="12" y="9" fill="#f3f4f6">JavaScript</text>
+        <text x="180" y="9" fill="#8b949e" text-anchor="end">28.7%</text>
+        <rect x="12" y="13" width="168" height="4" rx="2" fill="#1f293d" />
+        <rect x="12" y="13" width="48" height="4" rx="2" fill="#f7df1e" />
+      </g>
+
+      <!-- Dart -->
+      <g transform="translate(0, 44)">
+        <circle cx="4" cy="6" r="3" fill="#0175c2" />
+        <text x="12" y="9" fill="#f3f4f6">Dart</text>
+        <text x="180" y="9" fill="#8b949e" text-anchor="end">11.3%</text>
+        <rect x="12" y="13" width="168" height="4" rx="2" fill="#1f293d" />
+        <rect x="12" y="13" width="19" height="4" rx="2" fill="#0175c2" />
+      </g>
+
+      <!-- PHP -->
+      <g transform="translate(0, 66)">
+        <circle cx="4" cy="6" r="3" fill="#777bb4" />
+        <text x="12" y="9" fill="#f3f4f6">PHP</text>
+        <text x="180" y="9" fill="#8b949e" text-anchor="end">8.9%</text>
+        <rect x="12" y="13" width="168" height="4" rx="2" fill="#1f293d" />
+        <rect x="12" y="13" width="15" height="4" rx="2" fill="#777bb4" />
+      </g>
+
+      <!-- HTML -->
+      <g transform="translate(0, 88)">
+        <circle cx="4" cy="6" r="3" fill="#e34f26" />
+        <text x="12" y="9" fill="#f3f4f6">HTML</text>
+        <text x="180" y="9" fill="#8b949e" text-anchor="end">4.7%</text>
+        <rect x="12" y="13" width="168" height="4" rx="2" fill="#1f293d" />
+        <rect x="12" y="13" width="8" height="4" rx="2" fill="#e34f26" />
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== CARD 4: ACTIVITY GRAPH ==================== -->
+  <g transform="translate(775, 0)">
+    <rect width="225" height="155" rx="8" fill="url(#row3-bg)" stroke="#00e5ff" stroke-width="1" stroke-opacity="0.3" />
+    <text x="12" y="24" font-family="'Fira Code', monospace" font-size="11" font-weight="800" fill="#00e5ff">
+      📈 ACTIVITY GRAPH <tspan fill="#8b949e" font-size="9" font-weight="400">(last 6 months)</tspan>
+    </text>
+    <line x1="12" y1="32" x2="213" y2="32" stroke="#1f293d" stroke-width="1"/>
+
+    <g transform="translate(12, 44)">
+      <!-- Fill Area under Graph -->
+      <path d="M 10 70 L 10 60 Q 30 30, 45 65 T 80 20 T 115 55 T 150 15 T 185 45 L 185 85 L 10 85 Z" fill="url(#graph-fill)" />
+      
+      <!-- Line Plot -->
+      <path d="M 10 60 Q 30 30, 45 65 T 80 20 T 115 55 T 150 15 T 185 45" fill="none" stroke="#38bdf8" stroke-width="2" />
+
+      <!-- Peak Nodes -->
+      <circle cx="45" cy="65" r="3" fill="#38bdf8" />
+      <circle cx="80" cy="20" r="3" fill="#00e5ff" />
+      <circle cx="115" cy="55" r="3" fill="#38bdf8" />
+      <circle cx="150" cy="15" r="3" fill="#00e5ff" />
+      <circle cx="185" cy="45" r="3" fill="#38bdf8" />
+
+      <!-- X Axis Month Labels -->
+      <g transform="translate(0, 95)" font-family="'Fira Code', monospace" font-size="8.5" fill="#8b949e">
+        <text x="10">Feb</text>
+        <text x="45">Mar</text>
+        <text x="80">Apr</text>
+        <text x="115">May</text>
+        <text x="150">Jun</text>
+        <text x="180">Jul</text>
+      </g>
+    </g>
+  </g>
+</svg>

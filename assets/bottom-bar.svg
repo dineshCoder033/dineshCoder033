@@ -1,36 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 80" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 44" width="100%" height="100%">
   <defs>
-    <linearGradient id="bottom-bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#161b22" />
-      <stop offset="50%" stop-color="#0d1117" />
-      <stop offset="100%" stop-color="#161b22" />
+    <linearGradient id="bottom-bar-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d111a" />
+      <stop offset="100%" stop-color="#070a11" />
     </linearGradient>
-    <filter id="bottom-glow" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
   </defs>
 
-  <!-- Container Box -->
-  <rect width="1000" height="75" rx="12" fill="url(#bottom-bg)" stroke="#00bcd4" stroke-width="1.2" stroke-opacity="0.5" filter="url(#bottom-glow)" />
+  <!-- Background Box -->
+  <rect width="1000" height="44" rx="8" fill="url(#bottom-bar-bg)" stroke="#00e5ff" stroke-width="1" stroke-opacity="0.3" />
 
-  <!-- Quote Text -->
-  <text x="30" y="44" font-family="'Fira Code', monospace" font-size="13" font-weight="600" fill="#f3f4f6">
-    💡 "Striving to make the web a better place, one project at a time!"
+  <!-- Left Quote -->
+  <text x="16" y="27" font-family="'Fira Code', monospace" font-size="11.5" font-weight="600" fill="#b877ff">
+    💡 Striving to make the web a better place, one project at a time!
   </text>
 
-  <!-- Metrics Badges (Right Side) -->
-  <g transform="translate(620, 22)">
+  <!-- Right Metrics -->
+  <g transform="translate(560, 0)" font-family="'Fira Code', monospace" font-size="11">
     <!-- Metric 1: Views -->
-    <rect x="0" y="0" width="110" height="30" rx="6" fill="#0d1117" stroke="#00bcd4" stroke-width="1" stroke-opacity="0.6"/>
-    <text x="55" y="19" font-family="'Fira Code', monospace" font-size="11" font-weight="700" fill="#00bcd4" text-anchor="middle">👁 VIEWS: 1.2K+</text>
+    <g transform="translate(0, 0)">
+      <text x="0" y="27" fill="#38bdf8" font-size="13">👁</text>
+      <text x="20" y="21" font-size="8" fill="#8b949e">Profile Views</text>
+      <text x="20" y="33" font-size="11" font-weight="800" fill="#f3f4f6">1,234</text>
+    </g>
 
     <!-- Metric 2: Followers -->
-    <rect x="120" y="0" width="120" height="30" rx="6" fill="#0d1117" stroke="#a855f7" stroke-width="1" stroke-opacity="0.6"/>
-    <text x="180" y="19" font-family="'Fira Code', monospace" font-size="11" font-weight="700" fill="#a855f7" text-anchor="middle">👥 FOLLOWERS</text>
+    <g transform="translate(140, 0)">
+      <text x="0" y="27" fill="#38bdf8" font-size="13">👥</text>
+      <text x="22" y="21" font-size="8" fill="#8b949e">Followers</text>
+      <text x="22" y="33" font-size="11" font-weight="800" fill="#f3f4f6">120</text>
+    </g>
 
     <!-- Metric 3: Stars -->
-    <rect x="250" y="0" width="100" height="30" rx="6" fill="#0d1117" stroke="#eab308" stroke-width="1" stroke-opacity="0.6"/>
-    <text x="300" y="19" font-family="'Fira Code', monospace" font-size="11" font-weight="700" fill="#eab308" text-anchor="middle">⭐ STARS</text>
+    <g transform="translate(280, 0)">
+      <text x="0" y="27" fill="#ffd600" font-size="13">⭐</text>
+      <text x="20" y="21" font-size="8" fill="#8b949e">Total Stars</text>
+      <text x="20" y="33" font-size="11" font-weight="800" fill="#f3f4f6">298</text>
+    </g>
   </g>
 </svg>
