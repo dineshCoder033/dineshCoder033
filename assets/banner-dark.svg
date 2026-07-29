@@ -28,6 +28,18 @@
       <circle cx="4" cy="4" r="1.2" fill="#00e5ff" opacity="0.35" />
     </pattern>
 
+    <pattern id="photo-grid" width="12" height="12" patternUnits="userSpaceOnUse">
+      <path d="M 12 0 L 0 0 0 12" fill="none" stroke="#00e5ff" stroke-opacity="0.14" stroke-width="0.5" />
+    </pattern>
+
+    <linearGradient id="photo-scan-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0" />
+      <stop offset="45%" stop-color="#00e5ff" stop-opacity="0.10" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.22" />
+      <stop offset="55%" stop-color="#00e5ff" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0" />
+    </linearGradient>
+
     <!-- CSS Animations -->
     <style>
       @keyframes cursorBlink {
@@ -87,6 +99,8 @@
     <!-- Cyan Halftone Grid Overlay -->
     <rect x="5" y="5" width="270" height="278" fill="url(#halftone)" clip-path="url(#user-portrait-clip)" opacity="0.45" />
     <rect x="5" y="5" width="270" height="278" fill="#00e5ff" opacity="0.12" style="mix-blend-mode: color-dodge;" clip-path="url(#user-portrait-clip)" />
+    <rect x="5" y="5" width="270" height="278" fill="url(#photo-grid)" clip-path="url(#user-portrait-clip)" opacity="0.22" />
+    <rect x="5" y="5" width="270" height="278" fill="url(#photo-scan-grad)" clip-path="url(#user-portrait-clip)" class="photo-scan" />
 
     <!-- Corner Brackets -->
     <path d="M 12 25 L 12 12 L 25 12" fill="none" stroke="#00e5ff" stroke-width="2.5" />
